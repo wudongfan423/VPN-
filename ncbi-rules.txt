@@ -1,0 +1,22 @@
+# ===== NCBI核心（文献 / 基因 / 蛋白）=====
+DOMAIN-SUFFIX,ncbi.nlm.nih.gov
+DOMAIN-SUFFIX,pubmed.ncbi.nlm.nih.gov
+DOMAIN-SUFFIX,eutils.ncbi.nlm.nih.gov
+DOMAIN-SUFFIX,api.ncbi.nlm.nih.gov
+
+# ===== 序列数据库（GenBank / RefSeq / SRA / GEO）=====
+DOMAIN-SUFFIX,ftp.ncbi.nlm.nih.gov
+DOMAIN-SUFFIX,sra-download.ncbi.nlm.nih.gov
+DOMAIN-SUFFIX,trace.ncbi.nlm.nih.gov
+DOMAIN-SUFFIX,blast.ncbi.nlm.nih.gov
+
+# ===== 兜底（最关键）=====
+DOMAIN-KEYWORD,ncbi
+
+# ===== 真正数据流（必须，不然下载失败）=====
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,s3.amazonaws.com
+
+# ===== NIH系统 =====
+DOMAIN-SUFFIX,nih.gov
